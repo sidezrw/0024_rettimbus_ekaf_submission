@@ -1,0 +1,1 @@
+Matrix Multiplication algorithm encodes each matrix row in a ciphertext. Second matrix is encoded as a Transpose. Each element multiplication is the dot product per row.

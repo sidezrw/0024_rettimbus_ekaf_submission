@@ -1,0 +1,15 @@
+filename: "reports/dot_product_8064_3-wp_8064_8192_2_45_20_36-offline-int64-default-all_cipher-bfv-128_bits-0-report.csv"
+# software library used for HE operations (if any)
+software: "SEAL"
+# version for software listed above
+software_version: "v3.7.3"
+# number of CPU threads used during operate()
+cpu_threads: 70
+# accelerator of HE operations (if any)
+accelerator: ~
+# TDP for accelerator (if known)
+accelerator_tdp: ~
+# number of accelerators used
+accelerator_quantity: 0
+# extra notes
+notes: ~

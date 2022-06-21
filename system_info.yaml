@@ -1,0 +1,1018 @@
+hardware:
+  CPU:
+    Address sizes: 46 bits physical, 57 bits virtual
+    Architecture: x86_64
+    BogoMIPS: '4800.00'
+    Byte Order: Little Endian
+    CPU MHz: '2840.099'
+    CPU family: '6'
+    CPU max MHz: '3500.0000'
+    CPU min MHz: '800.0000'
+    CPU op-mode(s): 32-bit, 64-bit
+    CPU(s): '144'
+    Core(s) per socket: '36'
+    Flags:
+    - 3dnowprefetch
+    - abm
+    - acpi
+    - adx
+    - aes
+    - aperfmperf
+    - apic
+    - arat
+    - arch_capabilities
+    - arch_perfmon
+    - art
+    - avx
+    - avx2
+    - avx512_bitalg
+    - avx512_vbmi2
+    - avx512_vnni
+    - avx512_vpopcntdq
+    - avx512bw
+    - avx512cd
+    - avx512dq
+    - avx512f
+    - avx512ifma
+    - avx512vbmi
+    - avx512vl
+    - bmi1
+    - bmi2
+    - bts
+    - cat_l3
+    - clflush
+    - clflushopt
+    - clwb
+    - cmov
+    - constant_tsc
+    - cpuid
+    - cpuid_fault
+    - cqm
+    - cqm_llc
+    - cqm_mbm_local
+    - cqm_mbm_total
+    - cqm_occup_llc
+    - cx16
+    - cx8
+    - dca
+    - de
+    - ds_cpl
+    - dtes64
+    - dtherm
+    - dts
+    - epb
+    - ept
+    - ept_ad
+    - erms
+    - est
+    - f16c
+    - flexpriority
+    - flush_l1d
+    - fma
+    - fpu
+    - fsgsbase
+    - fxsr
+    - gfni
+    - ht
+    - hwp
+    - hwp_act_window
+    - hwp_epp
+    - hwp_pkg_req
+    - ibpb
+    - ibrs
+    - ibrs_enhanced
+    - ida
+    - intel_pt
+    - invpcid
+    - invpcid_single
+    - lahf_lm
+    - lm
+    - mba
+    - mca
+    - mce
+    - md_clear
+    - mmx
+    - monitor
+    - movbe
+    - msr
+    - mtrr
+    - nonstop_tsc
+    - nopl
+    - nx
+    - ospke
+    - pae
+    - pat
+    - pbe
+    - pcid
+    - pclmulqdq
+    - pconfig
+    - pdcm
+    - pdpe1gb
+    - pebs
+    - pge
+    - pku
+    - pln
+    - pni
+    - popcnt
+    - pse
+    - pse36
+    - pts
+    - rdpid
+    - rdrand
+    - rdseed
+    - rdt_a
+    - rdtscp
+    - rep_good
+    - sdbg
+    - sep
+    - sha_ni
+    - smap
+    - smep
+    - smx
+    - ss
+    - ssbd
+    - sse
+    - sse2
+    - sse4_1
+    - sse4_2
+    - ssse3
+    - stibp
+    - syscall
+    - tm
+    - tm2
+    - tme
+    - tpr_shadow
+    - tsc
+    - tsc_adjust
+    - tsc_deadline_timer
+    - umip
+    - vaes
+    - vme
+    - vmx
+    - vnmi
+    - vpclmulqdq
+    - vpid
+    - wbnoinvd
+    - x2apic
+    - xgetbv1
+    - xsave
+    - xsavec
+    - xsaveopt
+    - xsaves
+    - xtopology
+    - xtpr
+    L1d cache: 3.4 MiB
+    L1i cache: 2.3 MiB
+    L2 cache: 90 MiB
+    L3 cache: 108 MiB
+    Model: '106'
+    Model name: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+    NUMA node(s): '2'
+    NUMA node0 CPU(s): 0-35,72-107
+    NUMA node1 CPU(s): 36-71,108-143
+    On-line CPU(s) list: 0-143
+    Socket(s): '2'
+    Stepping: '6'
+    Thread(s) per core: '2'
+    Vendor ID: GenuineIntel
+    Virtualization: VT-x
+    Vulnerability Itlb multihit: Not affected
+    Vulnerability L1tf: Not affected
+    Vulnerability Mds: Not affected
+    Vulnerability Meltdown: Not affected
+    Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled
+      via prctl and seccomp
+    Vulnerability Spectre v1: Mitigation; usercopy/swapgs barriers and __user pointer
+      sanitization
+    Vulnerability Spectre v2: Mitigation; Enhanced IBRS, IBPB conditional, RSB filling
+    Vulnerability Srbds: Not affected
+    Vulnerability Tsx async abort: Not affected
+  GPU:
+    integrated_gpu: ASPEED Graphics Family
+  PCI:
+    00:00.0 System peripheral: Intel Corporation Device 09a2 (rev 04)
+    00:00.1 System peripheral: Intel Corporation Device 09a4 (rev 04)
+    00:00.2 System peripheral: Intel Corporation Device 09a3 (rev 04)
+    00:00.4 Host bridge: Intel Corporation Device 0998
+    00:01.0 System peripheral: Intel Corporation Device 0b00
+    00:01.1 System peripheral: Intel Corporation Device 0b00
+    00:01.2 System peripheral: Intel Corporation Device 0b00
+    00:01.3 System peripheral: Intel Corporation Device 0b00
+    00:01.4 System peripheral: Intel Corporation Device 0b00
+    00:01.5 System peripheral: Intel Corporation Device 0b00
+    00:01.6 System peripheral: Intel Corporation Device 0b00
+    00:01.7 System peripheral: Intel Corporation Device 0b00
+    00:02.0 System peripheral: Intel Corporation Device 09a6
+    00:02.1 System peripheral: Intel Corporation Device 09a7
+    00:02.4 Non-Essential Instrumentation [1300]: Intel Corporation Device 3456 (rev
+      01)
+    00:11.0 Unassigned class [ff00]: Intel Corporation C620 Series Chipset Family
+      MROM 0 (rev 0a)
+    00:14.0 USB controller: Intel Corporation C620 Series Chipset Family USB 3.0 xHCI
+      Controller (rev 0a)
+    00:14.2 Signal processing controller: Intel Corporation C620 Series Chipset Family
+      Thermal Subsystem (rev 0a)
+    00:16.0 Communication controller: 'Intel Corporation C620 Series Chipset Family
+      MEI Controller #1 (rev 0a)'
+    00:16.1 Communication controller: 'Intel Corporation C620 Series Chipset Family
+      MEI Controller #2 (rev 0a)'
+    00:16.4 Communication controller: 'Intel Corporation C620 Series Chipset Family
+      MEI Controller #3 (rev 0a)'
+    00:17.0 SATA controller: Intel Corporation C620 Series Chipset Family SATA Controller
+      [AHCI mode] (rev 0a)
+    00:1c.0 PCI bridge: 'Intel Corporation C620 Series Chipset Family PCI Express
+      Root Port #4 (rev fa)'
+    00:1f.0 ISA bridge: Intel Corporation Device a1cb (rev 0a)
+    00:1f.2 Memory controller: Intel Corporation C620 Series Chipset Family Power
+      Management Controller (rev 0a)
+    00:1f.4 SMBus: Intel Corporation C620 Series Chipset Family SMBus (rev 0a)
+    00:1f.5 Serial bus controller [0c80]: Intel Corporation C620 Series Chipset Family
+      SPI Controller (rev 0a)
+    01:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+    02:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family
+      (rev 41)
+    16:00.0 System peripheral: Intel Corporation Device 09a2 (rev 04)
+    16:00.1 System peripheral: Intel Corporation Device 09a4 (rev 04)
+    16:00.2 System peripheral: Intel Corporation Device 09a3 (rev 04)
+    16:00.4 Host bridge: Intel Corporation Device 0998
+    16:04.0 PCI bridge: Intel Corporation Device 347c (rev 04)
+    17:00.0 Ethernet controller: Intel Corporation Ethernet Controller X710 for 10GBASE-T
+      (rev 02)
+    17:00.1 Ethernet controller: Intel Corporation Ethernet Controller X710 for 10GBASE-T
+      (rev 02)
+    30:00.0 System peripheral: Intel Corporation Device 09a2 (rev 04)
+    30:00.1 System peripheral: Intel Corporation Device 09a4 (rev 04)
+    30:00.2 System peripheral: Intel Corporation Device 09a3 (rev 04)
+    30:00.4 Host bridge: Intel Corporation Device 0998
+    4a:00.0 System peripheral: Intel Corporation Device 09a2 (rev 04)
+    4a:00.1 System peripheral: Intel Corporation Device 09a4 (rev 04)
+    4a:00.2 System peripheral: Intel Corporation Device 09a3 (rev 04)
+    4a:00.4 Host bridge: Intel Corporation Device 0998
+    64:00.0 System peripheral: Intel Corporation Device 09a2 (rev 04)
+    64:00.1 System peripheral: Intel Corporation Device 09a4 (rev 04)
+    64:00.2 System peripheral: Intel Corporation Device 09a3 (rev 04)
+    64:00.4 Host bridge: Intel Corporation Device 0998
+    64:02.0 PCI bridge: Intel Corporation Device 347a (rev 04)
+    64:03.0 PCI bridge: Intel Corporation Device 347b (rev 04)
+    64:04.0 PCI bridge: Intel Corporation Device 347c (rev 04)
+    64:05.0 PCI bridge: Intel Corporation Device 347d (rev 04)
+    7e:00.0 System peripheral: Intel Corporation Device 3450
+    7e:00.1 System peripheral: Intel Corporation Device 3451
+    7e:00.2 System peripheral: Intel Corporation Device 3452
+    7e:00.3 Host bridge: Intel Corporation Device 0998
+    7e:00.5 System peripheral: Intel Corporation Device 3455
+    7e:02.0 System peripheral: Intel Corporation Device 3440
+    7e:02.1 System peripheral: Intel Corporation Device 3441
+    7e:02.2 System peripheral: Intel Corporation Device 3442
+    7e:03.0 System peripheral: Intel Corporation Device 3440
+    7e:03.1 System peripheral: Intel Corporation Device 3441
+    7e:03.2 System peripheral: Intel Corporation Device 3442
+    7e:04.0 System peripheral: Intel Corporation Device 3440
+    7e:04.1 System peripheral: Intel Corporation Device 3441
+    7e:04.2 System peripheral: Intel Corporation Device 3442
+    7e:04.3 System peripheral: Intel Corporation Device 3443
+    7e:05.0 System peripheral: Intel Corporation Device 3445
+    7e:05.1 System peripheral: Intel Corporation Device 3446
+    7e:05.2 System peripheral: Intel Corporation Device 3447
+    7e:06.0 System peripheral: Intel Corporation Device 3445
+    7e:06.1 System peripheral: Intel Corporation Device 3446
+    7e:06.2 System peripheral: Intel Corporation Device 3447
+    7e:07.0 System peripheral: Intel Corporation Device 3445
+    7e:07.1 System peripheral: Intel Corporation Device 3446
+    7e:07.2 System peripheral: Intel Corporation Device 3447
+    7e:0b.0 System peripheral: Intel Corporation Device 3448
+    7e:0b.1 System peripheral: Intel Corporation Device 3448
+    7e:0b.2 System peripheral: Intel Corporation Device 344b
+    7e:0c.0 Performance counters: Intel Corporation Device 344a
+    7e:0d.0 Performance counters: Intel Corporation Device 344a
+    7e:0e.0 Performance counters: Intel Corporation Device 344a
+    7e:0f.0 Performance counters: Intel Corporation Device 344a
+    7e:1a.0 Performance counters: Intel Corporation Device 2880
+    7e:1b.0 Performance counters: Intel Corporation Device 2880
+    7e:1c.0 Performance counters: Intel Corporation Device 2880
+    7e:1d.0 Performance counters: Intel Corporation Device 2880
+    7f:00.0 System peripheral: Intel Corporation Device 344c
+    7f:00.1 System peripheral: Intel Corporation Device 344c
+    7f:00.2 System peripheral: Intel Corporation Device 344c
+    7f:00.3 System peripheral: Intel Corporation Device 344c
+    7f:00.4 System peripheral: Intel Corporation Device 344c
+    7f:00.5 System peripheral: Intel Corporation Device 344c
+    7f:00.6 System peripheral: Intel Corporation Device 344c
+    7f:00.7 System peripheral: Intel Corporation Device 344c
+    7f:01.0 System peripheral: Intel Corporation Device 344c
+    7f:01.1 System peripheral: Intel Corporation Device 344c
+    7f:01.2 System peripheral: Intel Corporation Device 344c
+    7f:01.3 System peripheral: Intel Corporation Device 344c
+    7f:01.4 System peripheral: Intel Corporation Device 344c
+    7f:01.5 System peripheral: Intel Corporation Device 344c
+    7f:01.6 System peripheral: Intel Corporation Device 344c
+    7f:01.7 System peripheral: Intel Corporation Device 344c
+    7f:02.0 System peripheral: Intel Corporation Device 344c
+    7f:02.1 System peripheral: Intel Corporation Device 344c
+    7f:02.2 System peripheral: Intel Corporation Device 344c
+    7f:02.3 System peripheral: Intel Corporation Device 344c
+    7f:02.4 System peripheral: Intel Corporation Device 344c
+    7f:02.5 System peripheral: Intel Corporation Device 344c
+    7f:02.6 System peripheral: Intel Corporation Device 344c
+    7f:02.7 System peripheral: Intel Corporation Device 344c
+    7f:03.0 System peripheral: Intel Corporation Device 344c
+    7f:03.1 System peripheral: Intel Corporation Device 344c
+    7f:03.2 System peripheral: Intel Corporation Device 344c
+    7f:03.3 System peripheral: Intel Corporation Device 344c
+    7f:03.4 System peripheral: Intel Corporation Device 344c
+    7f:03.5 System peripheral: Intel Corporation Device 344c
+    7f:03.6 System peripheral: Intel Corporation Device 344c
+    7f:03.7 System peripheral: Intel Corporation Device 344c
+    7f:04.0 System peripheral: Intel Corporation Device 344c
+    7f:04.1 System peripheral: Intel Corporation Device 344c
+    7f:04.2 System peripheral: Intel Corporation Device 344c
+    7f:04.3 System peripheral: Intel Corporation Device 344c
+    7f:04.4 System peripheral: Intel Corporation Device 344c
+    7f:04.5 System peripheral: Intel Corporation Device 344c
+    7f:04.6 System peripheral: Intel Corporation Device 344c
+    7f:04.7 System peripheral: Intel Corporation Device 344c
+    7f:0a.0 System peripheral: Intel Corporation Device 344d
+    7f:0a.1 System peripheral: Intel Corporation Device 344d
+    7f:0a.2 System peripheral: Intel Corporation Device 344d
+    7f:0a.3 System peripheral: Intel Corporation Device 344d
+    7f:0a.4 System peripheral: Intel Corporation Device 344d
+    7f:0a.5 System peripheral: Intel Corporation Device 344d
+    7f:0a.6 System peripheral: Intel Corporation Device 344d
+    7f:0a.7 System peripheral: Intel Corporation Device 344d
+    7f:0b.0 System peripheral: Intel Corporation Device 344d
+    7f:0b.1 System peripheral: Intel Corporation Device 344d
+    7f:0b.2 System peripheral: Intel Corporation Device 344d
+    7f:0b.3 System peripheral: Intel Corporation Device 344d
+    7f:0b.4 System peripheral: Intel Corporation Device 344d
+    7f:0b.5 System peripheral: Intel Corporation Device 344d
+    7f:0b.6 System peripheral: Intel Corporation Device 344d
+    7f:0b.7 System peripheral: Intel Corporation Device 344d
+    7f:0c.0 System peripheral: Intel Corporation Device 344d
+    7f:0c.1 System peripheral: Intel Corporation Device 344d
+    7f:0c.2 System peripheral: Intel Corporation Device 344d
+    7f:0c.3 System peripheral: Intel Corporation Device 344d
+    7f:0c.4 System peripheral: Intel Corporation Device 344d
+    7f:0c.5 System peripheral: Intel Corporation Device 344d
+    7f:0c.6 System peripheral: Intel Corporation Device 344d
+    7f:0c.7 System peripheral: Intel Corporation Device 344d
+    7f:0d.0 System peripheral: Intel Corporation Device 344d
+    7f:0d.1 System peripheral: Intel Corporation Device 344d
+    7f:0d.2 System peripheral: Intel Corporation Device 344d
+    7f:0d.3 System peripheral: Intel Corporation Device 344d
+    7f:0d.4 System peripheral: Intel Corporation Device 344d
+    7f:0d.5 System peripheral: Intel Corporation Device 344d
+    7f:0d.6 System peripheral: Intel Corporation Device 344d
+    7f:0d.7 System peripheral: Intel Corporation Device 344d
+    7f:0e.0 System peripheral: Intel Corporation Device 344d
+    7f:0e.1 System peripheral: Intel Corporation Device 344d
+    7f:0e.2 System peripheral: Intel Corporation Device 344d
+    7f:0e.3 System peripheral: Intel Corporation Device 344d
+    7f:0e.4 System peripheral: Intel Corporation Device 344d
+    7f:0e.5 System peripheral: Intel Corporation Device 344d
+    7f:0e.6 System peripheral: Intel Corporation Device 344d
+    7f:0e.7 System peripheral: Intel Corporation Device 344d
+    7f:1d.0 System peripheral: Intel Corporation Device 344f
+    7f:1d.1 System peripheral: Intel Corporation Device 3457
+    7f:1e.0 System peripheral: Intel Corporation Device 3458 (rev 06)
+    7f:1e.1 System peripheral: Intel Corporation Device 3459 (rev 06)
+    7f:1e.2 System peripheral: Intel Corporation Device 345a (rev 06)
+    7f:1e.3 System peripheral: Intel Corporation Device 345b (rev 06)
+    7f:1e.4 System peripheral: Intel Corporation Device 345c (rev 06)
+    7f:1e.5 System peripheral: Intel Corporation Device 345d (rev 06)
+    7f:1e.6 System peripheral: Intel Corporation Device 345e (rev 06)
+    7f:1e.7 System peripheral: Intel Corporation Device 345f (rev 06)
+    80:00.0 System peripheral: Intel Corporation Device 09a2 (rev 04)
+    80:00.1 System peripheral: Intel Corporation Device 09a4 (rev 04)
+    80:00.2 System peripheral: Intel Corporation Device 09a3 (rev 04)
+    80:00.4 Host bridge: Intel Corporation Device 0998
+    80:01.0 System peripheral: Intel Corporation Device 0b00
+    80:01.1 System peripheral: Intel Corporation Device 0b00
+    80:01.2 System peripheral: Intel Corporation Device 0b00
+    80:01.3 System peripheral: Intel Corporation Device 0b00
+    80:01.4 System peripheral: Intel Corporation Device 0b00
+    80:01.5 System peripheral: Intel Corporation Device 0b00
+    80:01.6 System peripheral: Intel Corporation Device 0b00
+    80:01.7 System peripheral: Intel Corporation Device 0b00
+    80:02.0 System peripheral: Intel Corporation Device 09a6
+    80:02.1 System peripheral: Intel Corporation Device 09a7
+    80:02.4 Non-Essential Instrumentation [1300]: Intel Corporation Device 3456 (rev
+      01)
+    97:00.0 System peripheral: Intel Corporation Device 09a2 (rev 04)
+    97:00.1 System peripheral: Intel Corporation Device 09a4 (rev 04)
+    97:00.2 System peripheral: Intel Corporation Device 09a3 (rev 04)
+    97:00.4 Host bridge: Intel Corporation Device 0998
+    b0:00.0 System peripheral: Intel Corporation Device 09a2 (rev 04)
+    b0:00.1 System peripheral: Intel Corporation Device 09a4 (rev 04)
+    b0:00.2 System peripheral: Intel Corporation Device 09a3 (rev 04)
+    b0:00.4 Host bridge: Intel Corporation Device 0998
+    c9:00.0 System peripheral: Intel Corporation Device 09a2 (rev 04)
+    c9:00.1 System peripheral: Intel Corporation Device 09a4 (rev 04)
+    c9:00.2 System peripheral: Intel Corporation Device 09a3 (rev 04)
+    c9:00.4 Host bridge: Intel Corporation Device 0998
+    e2:00.0 System peripheral: Intel Corporation Device 09a2 (rev 04)
+    e2:00.1 System peripheral: Intel Corporation Device 09a4 (rev 04)
+    e2:00.2 System peripheral: Intel Corporation Device 09a3 (rev 04)
+    e2:00.4 Host bridge: Intel Corporation Device 0998
+    e2:02.0 PCI bridge: Intel Corporation Device 347a (rev 04)
+    e2:03.0 PCI bridge: Intel Corporation Device 347b (rev 04)
+    e2:04.0 PCI bridge: Intel Corporation Device 347c (rev 04)
+    e2:05.0 PCI bridge: Intel Corporation Device 347d (rev 04)
+    fe:00.0 System peripheral: Intel Corporation Device 3450
+    fe:00.1 System peripheral: Intel Corporation Device 3451
+    fe:00.2 System peripheral: Intel Corporation Device 3452
+    fe:00.3 Host bridge: Intel Corporation Device 0998
+    fe:00.5 System peripheral: Intel Corporation Device 3455
+    fe:02.0 System peripheral: Intel Corporation Device 3440
+    fe:02.1 System peripheral: Intel Corporation Device 3441
+    fe:02.2 System peripheral: Intel Corporation Device 3442
+    fe:03.0 System peripheral: Intel Corporation Device 3440
+    fe:03.1 System peripheral: Intel Corporation Device 3441
+    fe:03.2 System peripheral: Intel Corporation Device 3442
+    fe:04.0 System peripheral: Intel Corporation Device 3440
+    fe:04.1 System peripheral: Intel Corporation Device 3441
+    fe:04.2 System peripheral: Intel Corporation Device 3442
+    fe:04.3 System peripheral: Intel Corporation Device 3443
+    fe:05.0 System peripheral: Intel Corporation Device 3445
+    fe:05.1 System peripheral: Intel Corporation Device 3446
+    fe:05.2 System peripheral: Intel Corporation Device 3447
+    fe:06.0 System peripheral: Intel Corporation Device 3445
+    fe:06.1 System peripheral: Intel Corporation Device 3446
+    fe:06.2 System peripheral: Intel Corporation Device 3447
+    fe:07.0 System peripheral: Intel Corporation Device 3445
+    fe:07.1 System peripheral: Intel Corporation Device 3446
+    fe:07.2 System peripheral: Intel Corporation Device 3447
+    fe:0b.0 System peripheral: Intel Corporation Device 3448
+    fe:0b.1 System peripheral: Intel Corporation Device 3448
+    fe:0b.2 System peripheral: Intel Corporation Device 344b
+    fe:0c.0 Performance counters: Intel Corporation Device 344a
+    fe:0d.0 Performance counters: Intel Corporation Device 344a
+    fe:0e.0 Performance counters: Intel Corporation Device 344a
+    fe:0f.0 Performance counters: Intel Corporation Device 344a
+    fe:1a.0 Performance counters: Intel Corporation Device 2880
+    fe:1b.0 Performance counters: Intel Corporation Device 2880
+    fe:1c.0 Performance counters: Intel Corporation Device 2880
+    fe:1d.0 Performance counters: Intel Corporation Device 2880
+    ff:00.0 System peripheral: Intel Corporation Device 344c
+    ff:00.1 System peripheral: Intel Corporation Device 344c
+    ff:00.2 System peripheral: Intel Corporation Device 344c
+    ff:00.3 System peripheral: Intel Corporation Device 344c
+    ff:00.4 System peripheral: Intel Corporation Device 344c
+    ff:00.5 System peripheral: Intel Corporation Device 344c
+    ff:00.6 System peripheral: Intel Corporation Device 344c
+    ff:00.7 System peripheral: Intel Corporation Device 344c
+    ff:01.0 System peripheral: Intel Corporation Device 344c
+    ff:01.1 System peripheral: Intel Corporation Device 344c
+    ff:01.2 System peripheral: Intel Corporation Device 344c
+    ff:01.3 System peripheral: Intel Corporation Device 344c
+    ff:01.4 System peripheral: Intel Corporation Device 344c
+    ff:01.5 System peripheral: Intel Corporation Device 344c
+    ff:01.6 System peripheral: Intel Corporation Device 344c
+    ff:01.7 System peripheral: Intel Corporation Device 344c
+    ff:02.0 System peripheral: Intel Corporation Device 344c
+    ff:02.1 System peripheral: Intel Corporation Device 344c
+    ff:02.2 System peripheral: Intel Corporation Device 344c
+    ff:02.3 System peripheral: Intel Corporation Device 344c
+    ff:02.4 System peripheral: Intel Corporation Device 344c
+    ff:02.5 System peripheral: Intel Corporation Device 344c
+    ff:02.6 System peripheral: Intel Corporation Device 344c
+    ff:02.7 System peripheral: Intel Corporation Device 344c
+    ff:03.0 System peripheral: Intel Corporation Device 344c
+    ff:03.1 System peripheral: Intel Corporation Device 344c
+    ff:03.2 System peripheral: Intel Corporation Device 344c
+    ff:03.3 System peripheral: Intel Corporation Device 344c
+    ff:03.4 System peripheral: Intel Corporation Device 344c
+    ff:03.5 System peripheral: Intel Corporation Device 344c
+    ff:03.6 System peripheral: Intel Corporation Device 344c
+    ff:03.7 System peripheral: Intel Corporation Device 344c
+    ff:04.0 System peripheral: Intel Corporation Device 344c
+    ff:04.1 System peripheral: Intel Corporation Device 344c
+    ff:04.2 System peripheral: Intel Corporation Device 344c
+    ff:04.3 System peripheral: Intel Corporation Device 344c
+    ff:04.4 System peripheral: Intel Corporation Device 344c
+    ff:04.5 System peripheral: Intel Corporation Device 344c
+    ff:04.6 System peripheral: Intel Corporation Device 344c
+    ff:04.7 System peripheral: Intel Corporation Device 344c
+    ff:0a.0 System peripheral: Intel Corporation Device 344d
+    ff:0a.1 System peripheral: Intel Corporation Device 344d
+    ff:0a.2 System peripheral: Intel Corporation Device 344d
+    ff:0a.3 System peripheral: Intel Corporation Device 344d
+    ff:0a.4 System peripheral: Intel Corporation Device 344d
+    ff:0a.5 System peripheral: Intel Corporation Device 344d
+    ff:0a.6 System peripheral: Intel Corporation Device 344d
+    ff:0a.7 System peripheral: Intel Corporation Device 344d
+    ff:0b.0 System peripheral: Intel Corporation Device 344d
+    ff:0b.1 System peripheral: Intel Corporation Device 344d
+    ff:0b.2 System peripheral: Intel Corporation Device 344d
+    ff:0b.3 System peripheral: Intel Corporation Device 344d
+    ff:0b.4 System peripheral: Intel Corporation Device 344d
+    ff:0b.5 System peripheral: Intel Corporation Device 344d
+    ff:0b.6 System peripheral: Intel Corporation Device 344d
+    ff:0b.7 System peripheral: Intel Corporation Device 344d
+    ff:0c.0 System peripheral: Intel Corporation Device 344d
+    ff:0c.1 System peripheral: Intel Corporation Device 344d
+    ff:0c.2 System peripheral: Intel Corporation Device 344d
+    ff:0c.3 System peripheral: Intel Corporation Device 344d
+    ff:0c.4 System peripheral: Intel Corporation Device 344d
+    ff:0c.5 System peripheral: Intel Corporation Device 344d
+    ff:0c.6 System peripheral: Intel Corporation Device 344d
+    ff:0c.7 System peripheral: Intel Corporation Device 344d
+    ff:0d.0 System peripheral: Intel Corporation Device 344d
+    ff:0d.1 System peripheral: Intel Corporation Device 344d
+    ff:0d.2 System peripheral: Intel Corporation Device 344d
+    ff:0d.3 System peripheral: Intel Corporation Device 344d
+    ff:0d.4 System peripheral: Intel Corporation Device 344d
+    ff:0d.5 System peripheral: Intel Corporation Device 344d
+    ff:0d.6 System peripheral: Intel Corporation Device 344d
+    ff:0d.7 System peripheral: Intel Corporation Device 344d
+    ff:0e.0 System peripheral: Intel Corporation Device 344d
+    ff:0e.1 System peripheral: Intel Corporation Device 344d
+    ff:0e.2 System peripheral: Intel Corporation Device 344d
+    ff:0e.3 System peripheral: Intel Corporation Device 344d
+    ff:0e.4 System peripheral: Intel Corporation Device 344d
+    ff:0e.5 System peripheral: Intel Corporation Device 344d
+    ff:0e.6 System peripheral: Intel Corporation Device 344d
+    ff:0e.7 System peripheral: Intel Corporation Device 344d
+    ff:1d.0 System peripheral: Intel Corporation Device 344f
+    ff:1d.1 System peripheral: Intel Corporation Device 3457
+    ff:1e.0 System peripheral: Intel Corporation Device 3458 (rev 06)
+    ff:1e.1 System peripheral: Intel Corporation Device 3459 (rev 06)
+    ff:1e.2 System peripheral: Intel Corporation Device 345a (rev 06)
+    ff:1e.3 System peripheral: Intel Corporation Device 345b (rev 06)
+    ff:1e.4 System peripheral: Intel Corporation Device 345c (rev 06)
+    ff:1e.5 System peripheral: Intel Corporation Device 345d (rev 06)
+    ff:1e.6 System peripheral: Intel Corporation Device 345e (rev 06)
+    ff:1e.7 System peripheral: Intel Corporation Device 345f (rev 06)
+  disk:
+    drives:
+    - device: /dev/sda
+      product: INTEL SSDSC2KG48
+      size: 480GB
+  memory:
+    DIMM_count: 32
+    DIMMs:
+    - bank_locator: NODE 0
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU0_DIMM_A1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 0
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU0_DIMM_A2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 0
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU0_DIMM_B1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 0
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU0_DIMM_B2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 1
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU0_DIMM_C1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 1
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU0_DIMM_C2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 1
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU0_DIMM_D1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 1
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU0_DIMM_D2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 2
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU0_DIMM_E1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 2
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU0_DIMM_E2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 2
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU0_DIMM_F1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 2
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU0_DIMM_F2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 3
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU0_DIMM_G1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 3
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU0_DIMM_G2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 3
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU0_DIMM_H1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 3
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU0_DIMM_H2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 4
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU1_DIMM_A1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 4
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU1_DIMM_A2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 4
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU1_DIMM_B1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 4
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU1_DIMM_B2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 5
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU1_DIMM_C1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 5
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU1_DIMM_C2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 5
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU1_DIMM_D1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 5
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU1_DIMM_D2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 6
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU1_DIMM_E1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 6
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU1_DIMM_E2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 6
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU1_DIMM_F1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 6
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU1_DIMM_F2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 7
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU1_DIMM_G1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 7
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU1_DIMM_G2
+      rank: Unknown
+      size: empty
+      type: Unknown
+    - bank_locator: NODE 7
+      configured_frequency: 3200 MT/s
+      frequency: 3200 MT/s
+      locator: CPU1_DIMM_H1
+      rank: '2'
+      size: 64 GB
+      type: DDR4
+    - bank_locator: NODE 7
+      configured_frequency: Unknown
+      frequency: Unknown
+      locator: CPU1_DIMM_H2
+      rank: Unknown
+      size: empty
+      type: Unknown
+  network:
+    interfaces:
+      docker0:
+        physical: false
+        type: Ethernet interface
+      ens260f0:
+        device: Ethernet Controller X710 for 10GBASE-T
+        physical: true
+        speed: 10Gbit/s
+        type: Ethernet interface
+      ens260f1:
+        device: Ethernet Controller X710 for 10GBASE-T
+        physical: true
+        speed: 10Gbit/s
+        type: Ethernet interface
+      vethdd70c16:
+        physical: false
+        speed: 10Gbit/s
+        type: Ethernet interface
+software:
+  Operating System:
+    architecture: x86_64
+    distribution: Ubuntu 20.04.1 LTS
+    kernel: Linux 5.4.0-91-generic
+  drivers:
+    acpi_pad: /lib/modules/5.4.0-91-generic/kernel/drivers/acpi/acpi_pad.ko
+    acpi_power_meter: /lib/modules/5.4.0-91-generic/kernel/drivers/hwmon/acpi_power_meter.ko
+    aesni_intel: /lib/modules/5.4.0-91-generic/kernel/arch/x86/crypto/aesni-intel.ko
+    ahci: /lib/modules/5.4.0-91-generic/kernel/drivers/ata/ahci.ko
+    ast: /lib/modules/5.4.0-91-generic/kernel/drivers/gpu/drm/ast/ast.ko
+    async_memcpy: /lib/modules/5.4.0-91-generic/kernel/crypto/async_tx/async_memcpy.ko
+    async_pq: /lib/modules/5.4.0-91-generic/kernel/crypto/async_tx/async_pq.ko
+    async_raid6_recov: /lib/modules/5.4.0-91-generic/kernel/crypto/async_tx/async_raid6_recov.ko
+    async_tx: /lib/modules/5.4.0-91-generic/kernel/crypto/async_tx/async_tx.ko
+    async_xor: /lib/modules/5.4.0-91-generic/kernel/crypto/async_tx/async_xor.ko
+    aufs: /lib/modules/5.4.0-91-generic/kernel/fs/aufs/aufs.ko
+    autofs4: /lib/modules/5.4.0-91-generic/kernel/fs/autofs/autofs4.ko
+    binfmt_misc: /lib/modules/5.4.0-91-generic/kernel/fs/binfmt_misc.ko
+    bpfilter: /lib/modules/5.4.0-91-generic/kernel/net/bpfilter/bpfilter.ko
+    br_netfilter: /lib/modules/5.4.0-91-generic/kernel/net/bridge/br_netfilter.ko
+    bridge: /lib/modules/5.4.0-91-generic/kernel/net/bridge/bridge.ko
+    btrfs: /lib/modules/5.4.0-91-generic/kernel/fs/btrfs/btrfs.ko
+    coda: /lib/modules/5.4.0-91-generic/kernel/fs/coda/coda.ko
+    coretemp: /lib/modules/5.4.0-91-generic/kernel/drivers/hwmon/coretemp.ko
+    cpuid: /lib/modules/5.4.0-91-generic/kernel/arch/x86/kernel/cpuid.ko
+    crc32_pclmul: /lib/modules/5.4.0-91-generic/kernel/arch/x86/crypto/crc32-pclmul.ko
+    crct10dif_pclmul: /lib/modules/5.4.0-91-generic/kernel/arch/x86/crypto/crct10dif-pclmul.ko
+    cryptd: /lib/modules/5.4.0-91-generic/kernel/crypto/cryptd.ko
+    crypto_simd: /lib/modules/5.4.0-91-generic/kernel/crypto/crypto_simd.ko
+    dca: /lib/modules/5.4.0-91-generic/kernel/drivers/dca/dca.ko
+    dm_multipath: /lib/modules/5.4.0-91-generic/kernel/drivers/md/dm-multipath.ko
+    drm: /lib/modules/5.4.0-91-generic/kernel/drivers/gpu/drm/drm.ko
+    drm_kms_helper: /lib/modules/5.4.0-91-generic/kernel/drivers/gpu/drm/drm_kms_helper.ko
+    drm_vram_helper: /lib/modules/5.4.0-91-generic/kernel/drivers/gpu/drm/drm_vram_helper.ko
+    fb_sys_fops: /lib/modules/5.4.0-91-generic/kernel/drivers/video/fbdev/core/fb_sys_fops.ko
+    fscache: /lib/modules/5.4.0-91-generic/kernel/fs/fscache/fscache.ko
+    ghash_clmulni_intel: /lib/modules/5.4.0-91-generic/kernel/arch/x86/crypto/ghash-clmulni-intel.ko
+    glue_helper: /lib/modules/5.4.0-91-generic/kernel/arch/x86/crypto/glue_helper.ko
+    grace: /lib/modules/5.4.0-91-generic/kernel/fs/nfs_common/grace.ko
+    hfs: /lib/modules/5.4.0-91-generic/kernel/fs/hfs/hfs.ko
+    hfsplus: /lib/modules/5.4.0-91-generic/kernel/fs/hfsplus/hfsplus.ko
+    hid: /lib/modules/5.4.0-91-generic/kernel/drivers/hid/hid.ko
+    hid_generic: /lib/modules/5.4.0-91-generic/kernel/drivers/hid/hid-generic.ko
+    i2c_algo_bit: /lib/modules/5.4.0-91-generic/kernel/drivers/i2c/algos/i2c-algo-bit.ko
+    i2c_i801: /lib/modules/5.4.0-91-generic/kernel/drivers/i2c/busses/i2c-i801.ko
+    i40e: /lib/modules/5.4.0-91-generic/kernel/drivers/net/ethernet/intel/i40e/i40e.ko
+    input_leds: /lib/modules/5.4.0-91-generic/kernel/drivers/input/input-leds.ko
+    intel_powerclamp: /lib/modules/5.4.0-91-generic/kernel/drivers/thermal/intel/intel_powerclamp.ko
+    intel_rapl_common: /lib/modules/5.4.0-91-generic/kernel/drivers/powercap/intel_rapl_common.ko
+    intel_rapl_msr: /lib/modules/5.4.0-91-generic/kernel/drivers/powercap/intel_rapl_msr.ko
+    ioatdma: /lib/modules/5.4.0-91-generic/kernel/drivers/dma/ioat/ioatdma.ko
+    ip_tables: /lib/modules/5.4.0-91-generic/kernel/net/ipv4/netfilter/ip_tables.ko
+    ip_vs: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/ipvs/ip_vs.ko
+    ip_vs_rr: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/ipvs/ip_vs_rr.ko
+    ip_vs_sh: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/ipvs/ip_vs_sh.ko
+    ip_vs_wrr: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/ipvs/ip_vs_wrr.ko
+    ipmi_devintf: /lib/modules/5.4.0-91-generic/kernel/drivers/char/ipmi/ipmi_devintf.ko
+    ipmi_msghandler: /lib/modules/5.4.0-91-generic/kernel/drivers/char/ipmi/ipmi_msghandler.ko
+    ipmi_si: /lib/modules/5.4.0-91-generic/kernel/drivers/char/ipmi/ipmi_si.ko
+    ipmi_ssif: /lib/modules/5.4.0-91-generic/kernel/drivers/char/ipmi/ipmi_ssif.ko
+    ipt_REJECT: /lib/modules/5.4.0-91-generic/kernel/net/ipv4/netfilter/ipt_REJECT.ko
+    iptable_filter: /lib/modules/5.4.0-91-generic/kernel/net/ipv4/netfilter/iptable_filter.ko
+    iptable_mangle: /lib/modules/5.4.0-91-generic/kernel/net/ipv4/netfilter/iptable_mangle.ko
+    iptable_nat: /lib/modules/5.4.0-91-generic/kernel/net/ipv4/netfilter/iptable_nat.ko
+    isst_if_common: /lib/modules/5.4.0-91-generic/kernel/drivers/platform/x86/intel_speed_select_if/isst_if_common.ko
+    isst_if_mbox_pci: /lib/modules/5.4.0-91-generic/kernel/drivers/platform/x86/intel_speed_select_if/isst_if_mbox_pci.ko
+    isst_if_mmio: /lib/modules/5.4.0-91-generic/kernel/drivers/platform/x86/intel_speed_select_if/isst_if_mmio.ko
+    jfs: /lib/modules/5.4.0-91-generic/kernel/fs/jfs/jfs.ko
+    joydev: /lib/modules/5.4.0-91-generic/kernel/drivers/input/joydev.ko
+    kvm: /lib/modules/5.4.0-91-generic/kernel/arch/x86/kvm/kvm.ko
+    kvm_intel: /lib/modules/5.4.0-91-generic/kernel/arch/x86/kvm/kvm-intel.ko
+    libahci: /lib/modules/5.4.0-91-generic/kernel/drivers/ata/libahci.ko
+    libcrc32c: /lib/modules/5.4.0-91-generic/kernel/lib/libcrc32c.ko
+    linear: /lib/modules/5.4.0-91-generic/kernel/drivers/md/linear.ko
+    llc: /lib/modules/5.4.0-91-generic/kernel/net/llc/llc.ko
+    lockd: /lib/modules/5.4.0-91-generic/kernel/fs/lockd/lockd.ko
+    mac_hid: /lib/modules/5.4.0-91-generic/kernel/drivers/macintosh/mac_hid.ko
+    mei: /lib/modules/5.4.0-91-generic/kernel/drivers/misc/mei/mei.ko
+    mei_me: /lib/modules/5.4.0-91-generic/kernel/drivers/misc/mei/mei-me.ko
+    minix: /lib/modules/5.4.0-91-generic/kernel/fs/minix/minix.ko
+    msdos: /lib/modules/5.4.0-91-generic/kernel/fs/fat/msdos.ko
+    msr: /lib/modules/5.4.0-91-generic/kernel/arch/x86/kernel/msr.ko
+    multipath: /lib/modules/5.4.0-91-generic/kernel/drivers/md/multipath.ko
+    nf_conntrack: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/nf_conntrack.ko
+    nf_conntrack_netlink: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/nf_conntrack_netlink.ko
+    nf_defrag_ipv4: /lib/modules/5.4.0-91-generic/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko
+    nf_defrag_ipv6: /lib/modules/5.4.0-91-generic/kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko
+    nf_nat: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/nf_nat.ko
+    nf_reject_ipv4: /lib/modules/5.4.0-91-generic/kernel/net/ipv4/netfilter/nf_reject_ipv4.ko
+    nf_tables: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/nf_tables.ko
+    nfit: /lib/modules/5.4.0-91-generic/kernel/drivers/acpi/nfit/nfit.ko
+    nfnetlink: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/nfnetlink.ko
+    nfs: /lib/modules/5.4.0-91-generic/kernel/fs/nfs/nfs.ko
+    nls_iso8859_1: /lib/modules/5.4.0-91-generic/kernel/fs/nls/nls_iso8859-1.ko
+    ntfs: /lib/modules/5.4.0-91-generic/kernel/fs/ntfs/ntfs.ko
+    overlay: /lib/modules/5.4.0-91-generic/kernel/fs/overlayfs/overlay.ko
+    qnx4: /lib/modules/5.4.0-91-generic/kernel/fs/qnx4/qnx4.ko
+    raid0: /lib/modules/5.4.0-91-generic/kernel/drivers/md/raid0.ko
+    raid1: /lib/modules/5.4.0-91-generic/kernel/drivers/md/raid1.ko
+    raid10: /lib/modules/5.4.0-91-generic/kernel/drivers/md/raid10.ko
+    raid456: /lib/modules/5.4.0-91-generic/kernel/drivers/md/raid456.ko
+    raid6_pq: /lib/modules/5.4.0-91-generic/kernel/lib/raid6/raid6_pq.ko
+    sch_fq_codel: /lib/modules/5.4.0-91-generic/kernel/net/sched/sch_fq_codel.ko
+    scsi_dh_alua: /lib/modules/5.4.0-91-generic/kernel/drivers/scsi/device_handler/scsi_dh_alua.ko
+    scsi_dh_emc: /lib/modules/5.4.0-91-generic/kernel/drivers/scsi/device_handler/scsi_dh_emc.ko
+    scsi_dh_rdac: /lib/modules/5.4.0-91-generic/kernel/drivers/scsi/device_handler/scsi_dh_rdac.ko
+    stp: /lib/modules/5.4.0-91-generic/kernel/net/802/stp.ko
+    sunrpc: /lib/modules/5.4.0-91-generic/kernel/net/sunrpc/sunrpc.ko
+    syscopyarea: /lib/modules/5.4.0-91-generic/kernel/drivers/video/fbdev/core/syscopyarea.ko
+    sysfillrect: /lib/modules/5.4.0-91-generic/kernel/drivers/video/fbdev/core/sysfillrect.ko
+    sysimgblt: /lib/modules/5.4.0-91-generic/kernel/drivers/video/fbdev/core/sysimgblt.ko
+    ttm: /lib/modules/5.4.0-91-generic/kernel/drivers/gpu/drm/ttm/ttm.ko
+    ufs: /lib/modules/5.4.0-91-generic/kernel/fs/ufs/ufs.ko
+    usbhid: /lib/modules/5.4.0-91-generic/kernel/drivers/hid/usbhid/usbhid.ko
+    veth: /lib/modules/5.4.0-91-generic/kernel/drivers/net/veth.ko
+    wmi: /lib/modules/5.4.0-91-generic/kernel/drivers/platform/x86/wmi.ko
+    x86_pkg_temp_thermal: /lib/modules/5.4.0-91-generic/kernel/drivers/thermal/intel/x86_pkg_temp_thermal.ko
+    x_tables: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/x_tables.ko
+    xfrm_algo: /lib/modules/5.4.0-91-generic/kernel/net/xfrm/xfrm_algo.ko
+    xfrm_user: /lib/modules/5.4.0-91-generic/kernel/net/xfrm/xfrm_user.ko
+    xfs: /lib/modules/5.4.0-91-generic/kernel/fs/xfs/xfs.ko
+    xor: /lib/modules/5.4.0-91-generic/kernel/crypto/xor.ko
+    xt_MASQUERADE: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/xt_MASQUERADE.ko
+    xt_addrtype: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/xt_addrtype.ko
+    xt_comment: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/xt_comment.ko
+    xt_conntrack: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/xt_conntrack.ko
+    xt_mark: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/xt_mark.ko
+    xt_nat: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/xt_nat.ko
+    xt_statistic: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/xt_statistic.ko
+    xt_tcpudp: /lib/modules/5.4.0-91-generic/kernel/net/netfilter/xt_tcpudp.ko
+    zstd_compress: /lib/modules/5.4.0-91-generic/kernel/lib/zstd/zstd_compress.ko
+  ldd_info:
+    /usr/local/bin/test_harness:
+    - linux-vdso.so.1 (0x00007ffc228da000)
+    - libhebench_reportgen.so => /usr/local/lib/libhebench_reportgen.so
+      (0x00007f196d694000)
+    - libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f196d673000)
+    - libstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f196d491000)
+    - libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f196d342000)
+    - libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f196d327000)
+    - libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f196d302000)
+    - libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f196d110000)
+    - /lib64/ld-linux-x86-64.so.2 (0x00007f196d82f000)
+    /home/user/0024_rettimbus_ekaf_submission/libsubmission_0024.so:
+    - linux-vdso.so.1 (0x00007ffc833a5000)
+    - libstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007eff92949000)
+    - libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007eff927fa000)
+    - libgomp.so.1 => /lib/x86_64-linux-gnu/libgomp.so.1 (0x00007eff927b8000)
+    - libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007eff9279d000)
+    - libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007eff9277a000)
+    - libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007eff92586000)
+    - /lib64/ld-linux-x86-64.so.2 (0x00007eff92d8d000)
+    - libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007eff92580000)
+  services:
+  - accounts-daemon.service
+  - apparmor.service
+  - apport.service
+  - atd.service
+  - avahi-daemon.service
+  - binfmt-support.service
+  - blk-availability.service
+  - cloud-config.service
+  - cloud-final.service
+  - cloud-init-local.service
+  - cloud-init.service
+  - console-setup.service
+  - containerd.service
+  - cpufrequtils.service
+  - cron.service
+  - dbus.service
+  - docker.service
+  - finalrd.service
+  - fwupd.service
+  - getty@tty1.service
+  - grub-common.service
+  - irqbalance.service
+  - keyboard-setup.service
+  - kmod-static-nodes.service
+  - loadcpufreq.service
+  - lvm2-monitor.service
+  - ModemManager.service
+  - multipathd.service
+  - networkd-dispatcher.service
+  - NetworkManager.service
+  - polkit.service
+  - rename.service
+  - rsyslog.service
+  - rtkit-daemon.service
+  - sepint5.service
+  - setvtrgb.service
+  - snapd.apparmor.service
+  - snapd.seeded.service
+  - snapd.service
+  - ssh.service
+  - switcheroo-control.service
+  - systemd-hostnamed.service
+  - systemd-journal-flush.service
+  - systemd-journald.service
+  - systemd-logind.service
+  - systemd-modules-load.service
+  - systemd-networkd.service
+  - systemd-random-seed.service
+  - systemd-remount-fs.service
+  - systemd-resolved.service
+  - systemd-sysctl.service
+  - systemd-sysusers.service
+  - systemd-timesyncd.service
+  - systemd-tmpfiles-setup-dev.service
+  - systemd-tmpfiles-setup.service
+  - systemd-udev-settle.service
+  - systemd-udev-trigger.service
+  - systemd-udevd.service
+  - systemd-update-utmp.service
+  - systemd-user-sessions.service
+  - ufw.service
+  - unattended-upgrades.service
+  - upower.service
+  - user-runtime-dir@1008.service
+  - user@1008.service
+  - uuidd.service
+  - wpa_supplicant.service
+  - LOAD
