@@ -15,6 +15,7 @@ Submission repo must follow the format below.
 + versions
 benchmark_config.yaml
 id.yaml
+LICENSE
 README.md
 report.yaml
 system_info.yaml
@@ -81,6 +82,11 @@ This is the configuration file used with Frontend's Test Harness to run the benc
 *Auto-generated*
 
 YAML file containing ID of submission and submitter name. This must not be modified.
+
+### LICENSE
+*Auto-generated*
+
+License file containing the license governing the submission.
 
 ### `README.md`
 *Submitter provided*
